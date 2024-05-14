@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.canvasClass{
+    width: 100vw;
+    height: 88vh;
+    background: #171717;
+}
+.head{
+    width: 100vw;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+  }
+
+.bg-custom{
+    background-color: #15151a;
+}
+.popup-content {
+    
+    background-color: #15151a !important;
+    border: 1px solid #15151a !important;
+    border-radius: 0.375rem;
+  }
+.ss-content{
+    width: auto !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
